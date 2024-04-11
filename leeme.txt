@@ -1,0 +1,8 @@
+Perfecto, ahora vamos a prepararle una trampa al hacker. Para ello, necesitarás crear lo siguiente:
+Crea una red que tenga 3 subredes y 16 hosts máximo y responde a los siguientes
+apartados:
+● Clase de la dirección:
+● Esta clase cuenta cuántos bits dedica a RED, a SUBRED y cuántos a HOST:
+● ¿Cuál es el número CIDR?
+● Máscara de red por defecto:
+● Máscara de subred por asignada:
