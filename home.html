@@ -1,59 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Scape Room</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frutería</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1> SCAPE ROOM</h1>
+    <header>
+        <h1>Frutería delicioso</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<div id="prueba1">
-    <h2> Prueba 1</h2>
-    <p>A partir del siguiente texto, descifra el correo electrónico al cual tienes que escribir: 
-    En los rincones digitales de Barcelona, un hábil pirata informático había desencadenado el caos al infiltrarse en un banco de datos repleto de criptomonedas.
-     Con destreza cibernética, desvió una fortuna hacia cuentas clandestinas, dejando tras de sí un rastro digital frío y evasivo.<br><br>
+    <main>
+        <section class="productos">
+            <h2>Nuestros productos</h2>
+            <div class="producto">
+                <img src="manzana.jpg" alt="Manzanas">
+                <h3>Manzanas</h3>
+                <p>Descripción de las manzanas...</p>
+            </div>
+            <div class="producto">
+                <img src="naranja.jpg" alt="Naranjas">
+                <h3>Naranjas</h3>
+                <p>Descripción de las naranjas...</p>
+            </div>
+            <!-- Más productos aquí -->
+        </section>
+    </main>
 
-    El detective García, reconocido por su astucia y perseverancia, aceptó el desafío de dar con el esquivo delincuente. Sumergido en el océano de códigos binarios,
-    buscaba la pista que lo llevaría hasta su presa. En medio de la indagación, descubrió un detalle encriptado en los datos del sistema: u$erH4ck3rF0nt14@anonymous.com.<br><br>
-
-    Con la intuición de un rastreador digital, García comprendió que esas palabras subrayadas constituían la clave para desentrañar el paradero del hacker.
-    Sin perder un instante, envió un correo electrónico a la dirección proporcionada, con el asunto preciso: "Violación de Seguridad Financiera".<br><br>
-    El sonido de los teclados y el parpadeo de las pantallas marcaban el ritmo de una búsqueda electrónica implacable.
-
-    La espera se hacía interminable hasta que, finalmente, una respuesta emergió del vasto ciberespacio. En ella, una pista crucial se insinuaba entre las líneas de texto,
-    apuntando hacia una dirección IP en los abismos de la dark web.<br><br>
- 
-    Con la dirección en su poder, el detective García se preparaba para adentrarse en la oscuridad virtual,decidido a capturar al culpable y recuperar lo que había sido sustraído.
-    La cacería electrónica estaba a punto de comenzar, y en su mente resonaba el eco de un único propósito: justicia en el mundo digital.
-
-</p>
-</div>
-<div id="parteDesbloqueo>"
-  <label for="textoDesbloqueo">Texto de desbloqueo:</label>
-  <input type="text" id="textoDesbloqueo" name="textoDesbloqueo">
-  <button onclick="verificarPrueba1()">Desbloquear</button>
-</div>
-
-
-<div id="prueba2" style="display:none;">
-  <!-- Aquí va el contenido que quieres mostrar cuando se desbloquee la casilla -->
-    <h2>Prueba 2</h2>
-    <p>Muy bien, ahora deberás pasar los números binarios que se te ha proporcionado para conseguir la hubicación del hacker ( mediante la latitud y altitud).
-        Tendrás que colocarlos de dos en dos siguiendo la siguiente referencia:<br><br>
-        _ _º_ _'_ _._-_  _º_ _'_ _._-W
-    </p>
-    <label for="prueba2Desbloqueo">Texto de desbloqueo:</label>
-    <input type="text" id="prueba2Desbloqueo" name="prueba2Desbloqueo">
-    <button onclick="verificarPrueba2()">Desbloquear</button>
-    <div id="prueba3" style="display: none;">
-        <h2>Prueba3</h2>
-    </div>
-  </div>
-</div>
-
-<script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Frutería delicioso</p>
+    </footer>
 </body>
 </html>
 
