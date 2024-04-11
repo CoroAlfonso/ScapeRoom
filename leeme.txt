@@ -1,3 +1,6 @@
+La contraseña para pasar de prueba es ParqueGoya3.
+
+Aquí tienes la forma de superar la siguiente prueba.
 Perfecto, ahora vamos a prepararle una trampa al hacker. Para ello, necesitarás crear lo siguiente:
 Crea una red que tenga 3 subredes y 16 hosts máximo y responde a los siguientes
 apartados:
